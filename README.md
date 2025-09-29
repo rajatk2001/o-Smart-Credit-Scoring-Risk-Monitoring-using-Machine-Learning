@@ -61,13 +61,13 @@ probit_model = sm.Probit(y_train, X_train_sm).fit()
 # Display model summary (coefficients, p-values, etc.)
 print(probit_model.summary())
 
-<img width="571" height="455" alt="PD Distribution" src="https://github.com/user-attachments/assets/2e708de3-e195-42e7-b66a-501663d33371" />
 
-
-<img width="567" height="455" alt="ROC Curve" src="https://github.com/user-attachments/assets/b303970a-e3b6-4685-a413-480d6fa5f1dd" />
 ---
+<img width="571" height="455" alt="PD Distribution" src="https://github.com/user-attachments/assets/778e2ee7-2341-46a2-8646-86bbdddea2bb" />
 
-## Phase 4:Model Evaluation
+<img width="567" height="455" alt="ROC Curve" src="https://github.com/user-attachments/assets/aa3f976a-732e-4afa-84ad-6a32f346461c" />
+tion
+# Phase  4 :model evaluating
 from sklearn.metrics import roc_auc_score
 
 # Predicted PD
