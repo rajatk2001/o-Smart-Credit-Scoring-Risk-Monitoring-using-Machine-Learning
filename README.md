@@ -39,8 +39,8 @@ df[numeric_cols] = df[numeric_cols].astype(float)
 
 
 **Visualization**
-<img width="567" height="455" alt="ROC Curve<img width="571" height="455" alt="PD Distribution" src="https://github.com/user-attachments/assets/fbbdd4e4-9a1c-445a-8136-3a2b30ca9543" />
-" src="https://github.com/user-attachments/assets/4a132fca-f740-48c6-a80c-a0e6dc219f58" />
+<img width="571" height="455" alt="PD Distribution" src="https://github.com/user-attachments/assets/93f4b718-cf44-43c0-88b4-892b2f294e34" />
+<img width="567" height="455" alt="ROC Curve" src="https://github.com/user-attachments/assets/e9a75d03-0fdb-4de4-bbca-858b61d3dca0" />
 
 
 
