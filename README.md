@@ -54,13 +54,16 @@ ks_stat = ks_2samp(y_pred[y_test==1], y_pred[y_test==0]).statistic
 print("KS Statistic:", ks_stat)
 ```
 
-##Visualization
+## Visualization
+
+
+
 <img width="571" height="455" alt="PD Distribution" src="https://github.com/user-attachments/assets/93f4b718-cf44-43c0-88b4-892b2f294e34" />
 
 
 <img width="567" height="455" alt="ROC Curve" src="https://github.com/user-attachments/assets/e9a75d03-0fdb-4de4-bbca-858b61d3dca0" />
 
-##Conclusion
+## Conclusion
 
 This project demonstrates the complete end-to-end workflow for building a Probability of Default (PD) scorecard. Using logistic and probit regression, along with feature engineering and WOE encoding, the models effectively predict borrower default risk.
 
