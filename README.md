@@ -36,7 +36,7 @@ df['annual_income'] = df['annual_income'].replace(',','', regex=True).astype(flo
 numeric_cols = ['credit_score', 'annual_income', 'employment_length', 'dti', 'loan_amount', 'interest_rate']
 df[numeric_cols] = df[numeric_cols].astype(float)
 
-<img width="567" height="455" alt="ROC Curve" src="https://github.com/user-attachments/assets/2256a8b7-0ee0-467b-86f0-383b7ddbffba" />
+![ROC]
 
 
 
