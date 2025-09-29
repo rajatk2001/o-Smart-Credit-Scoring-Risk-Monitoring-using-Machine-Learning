@@ -35,8 +35,13 @@ df['annual_income'] = df['annual_income'].replace(',','', regex=True).astype(flo
 # Ensure numeric columns are float
 numeric_cols = ['credit_score', 'annual_income', 'employment_length', 'dti', 'loan_amount', 'interest_rate']
 df[numeric_cols] = df[numeric_cols].astype(float)
+```
 
-![ROC]
+
+**Visualization**
+<img width="567" height="455" alt="ROC Curve<img width="571" height="455" alt="PD Distribution" src="https://github.com/user-attachments/assets/fbbdd4e4-9a1c-445a-8136-3a2b30ca9543" />
+" src="https://github.com/user-attachments/assets/4a132fca-f740-48c6-a80c-a0e6dc219f58" />
+
 
 
 
