@@ -9,7 +9,7 @@ validated models with AUC, Gini, KS, and PSI to ensure robust performance over t
 
 
 
-**Optimization terminated successfully**
+Optimization terminated successfully
          Current function value: 0.337137
          Iterations 7
                            Logit Regression Results                           
@@ -43,8 +43,8 @@ credit_score_decile      -0.4424      0.176     -2.515      0.012      -0.787   
 Optimization terminated successfully.
          Current function value: 0.334743
          Iterations 7
-                          Probit Regression Results                           
-==============================================================================
+Probit Regression Results
+==============================================================================  
 Dep. Variable:         default_status   No. Observations:                 3500
 Model:                         Probit   Df Residuals:                     3487
 Method:                           MLE   Df Model:                           12
@@ -52,16 +52,16 @@ Date:                Mon, 29 Sep 2025   Pseudo R-squ.:                  0.4708
 Time:                        10:50:31   Log-Likelihood:                -1171.6
 converged:                       True   LL-Null:                       -2213.9
 Covariance Type:            nonrobust   LLR p-value:                     0.000
-=========================================================================================
+=========================================================================================  
                             coef    std err          z      P>|z|      [0.025      0.975]
------------------------------------------------------------------------------------------
-const                     7.8538      2.304      3.409      0.001       3.338      12.369
+-----------------------------------------------------------------------------------------  
+const                     7.854      2.304      3.409      0.001       3.338      12.369
 credit_score             -0.0093      0.004     -2.294      0.022      -0.017      -0.001
-annual_income          1.614e-06   8.77e-07      1.840      0.066   -1.05e-07    3.33e-06
+annual_income           1.614e-06   8.77e-07      1.840      0.066   -1.05e-07    3.33e-06
 employment_length         0.0009      0.003      0.325      0.746      -0.004       0.006
 dti                       0.0290      0.003      9.480      0.000       0.023       0.035
 loan_amount            -3.55e-06   2.95e-06     -1.202      0.229   -9.34e-06    2.24e-06
-term                      1.1179      8.568      0.130      0.896     -15.675      17.911
+term                      1.118      8.568      0.130      0.896     -15.675      17.911
 interest_rate            -0.0032      0.005     -0.625      0.532      -0.013       0.007
 loan_purpose              0.2002      0.248      0.808      0.419      -0.286       0.686
 home_ownership           -0.5346      1.976     -0.271      0.787      -4.407       3.338
@@ -69,7 +69,6 @@ income_to_loan_ratio     -0.0076      0.006     -1.253      0.210      -0.019   
 employment_length_cat     0.2453      0.437      0.561      0.575      -0.612       1.102
 credit_score_decile      -0.2796      0.100     -2.799      0.005      -0.475      -0.084
 =========================================================================================
-
 
 
 <img width="571" height="455" alt="PD Distribution" src="https://github.com/user-attachments/assets/2e708de3-e195-42e7-b66a-501663d33371" />
