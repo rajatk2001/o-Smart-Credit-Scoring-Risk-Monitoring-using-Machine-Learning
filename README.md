@@ -60,6 +60,17 @@ print("KS Statistic:", ks_stat)
 
 <img width="567" height="455" alt="ROC Curve" src="https://github.com/user-attachments/assets/e9a75d03-0fdb-4de4-bbca-858b61d3dca0" />
 
+##Conclusion
+
+This project demonstrates the complete end-to-end workflow for building a Probability of Default (PD) scorecard. Using logistic and probit regression, along with feature engineering and WOE encoding, the models effectively predict borrower default risk.
+
+Key achievements include:
+
+1) High predictive performance validated using KS, Gini, and ROC-AUC metrics
+
+2) Clear credit score and risk band assignments for borrowers
+
+3) Robust methodology suitable for risk-based lending decisions and portfolio monitoring
 
 
 
